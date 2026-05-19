@@ -1,0 +1,25 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Report output (Allure + custom TTA reporter)
+/allure-report/
+/allure-results/
+/tta-report/
+
+# Saved auth/session state — never commit
+user-session.json
+*-session.json
+
+# Download outputs (Lab 254)
+/out/
+/downlod/
+/tests/15_File_Download/downloads/
+
+# OS junk
+.DS_Store
